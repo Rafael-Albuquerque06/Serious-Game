@@ -17,9 +17,9 @@ class CodeBreakerMission {
                 tipo: "deslocamento",
                 titulo: "Missão 2: Cifra de Deslocamento ASCII",
                 descricao: "Descriptografe a mensagem usando Cifra de Deslocamento com chave = 3",
-                mensagemCifrada: "Pdp#456$",
+                mensagemCifrada: "Pds#456$",
                 chave: 3,
-                respostaCorreta: "map 123"
+                respostaCorreta: "map 123!"
             },
             {
                 tipo: "substituicao",
