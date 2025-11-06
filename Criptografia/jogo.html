@@ -1,16 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>CodeBreaker Mission - Jogo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="container mt-3 mb-4">
+        <div class="row">
+            <div class="col-12 justify-content-center text-center mt-3">
+                <h1 class="fw-bold">CodeBreaker Mission</h1>
+                <div class="d-flex justify-content-center mt-3">
+                    <div class="me-4">
+                        <h5 class="text-success">Pontuação: <span id="pontuacao">0</span></h5>
+                    </div>
+                    <div>
+                        <h5 class="text-danger">Vidas: <span id="vidas">3</span></h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="conteudo-jogo" class="col-12 card-body border border-success rounded mt-4 p-4">
+                <h2 id="titulo-nivel" class="text-center mb-4"></h2>
+                <p id="descricao-nivel" class="text-light text-center"></p>
+                <div id="mensagem" class="alert" style="display: none;"></div>
+                
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <h4 class="text-danger">Mensagem Criptografada:</h4>
+                        <div class="border border-danger rounded p-3 mt-2">
+                            <p id="mensagem-cifrada" class="text-light fs-5"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <h4 class="text-success">mensagem descriptografada:</h4>
+                        <input type="text" id="resposta-input" class="form-control mt-2" placeholder="Digite a mensagem descriptografada">
+                        <button id="verificar-resposta" class="btn btn-success mt-3 w-100">Verificar Resposta</button>
+                    </div>
+                </div>
+                
+                <div id="dica" class="mt-4 p-3 border border-success rounded"></div>
+                
+            </div>
+            
+            <div class="col-12 justify-content-center text-center mt-4">
+                <a href="index.html" class="btn btn-outline-success me-2">Voltar ao Início</a>
+                <a href="aprender.html" class="btn btn-outline-success">Revisar Cifras</a>
+            </div>
+        </div>
+    </div>
     
-
+    <script src="js/jogo.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
