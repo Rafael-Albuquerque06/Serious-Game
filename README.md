@@ -1,10 +1,8 @@
-# Serious-Game
+# CodeBreaker Mission
+
 Projeto que consiste em criar um jogo de criptografia.
 
-
 Para jogar entre nesse site: https://rafael-albuquerque06.github.io/Serious-Game
-
-# Título do Jogo: CodeBreaker Mission
 
 Identidade do jogo
 CodeBreaker Mission é um serious game educativo onde o jogador assume o papel de um agente secreto que precisa descriptografar mensagens usando diferentes técnicas de criptografia para completar missões e salvar o mundo.
