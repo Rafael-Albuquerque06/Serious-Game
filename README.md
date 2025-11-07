@@ -51,4 +51,4 @@ Equipe Desenvolvedora
 - Daniel Henrique
 - Matheus Lima
 
-© 2024 - CodeBreaker Mission. Desenvolvido para a disciplina de Resolução Discreta de Problemas.
+© 2025 - CodeBreaker Mission. Desenvolvido para a disciplina de Resolução Discreta de Problemas.
